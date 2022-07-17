@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Seko</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <link rel="stylesheet" href="css/styles.min.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Preloader -->
+        <div class="preloader__container">
+            <img src="img/preloader.gif" alt="preloader" class="preloader">
+        </div>
+        <div class="wrapper">
+            <div class="lines__wrapper">
+                <div class="lines__wrapper--inner">
+                    <div class="content--lines"></div>
+                </div>
+            </div>
+
+        <!-- Header -->
+        <header>
+            <div class="container navbar__container">
+                <div class="navigation--wrap start--header start--style">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <nav class="navbar navbar__expand--md navbar__light">
+                                    <!-- Brand -->
+                                    <a class="navbar__brand" href="/">SEKO</a>
+                                    <!-- Menu -->
+                                    <button class="navbar--toggler collapsed" type="button"> <span class="navbar--toggler--icon"></span> </button>
+                                    <div class="navbar__collapse">
+                                        <ul class="navbar__nav ml-auto py-4 py-md-0">
+                                            <li class="nav--item pl-md-0 ml-0 ml-md-4"> <a class="nav--link home" href="/">Home</a></li>
+                                            <li class="nav--item pl-md-0 ml-0 ml-md-4"> <a class="nav--link" href="/random">Random</a></li>
+                                            <li class="nav--item pl-md-0 ml-0 ml-md-4"> <a class="nav--link" href="/categories">Categories</a></li>
+                                            <li class="nav--item pl-md-0 ml-0 ml-md-4"><a class="nav--link" href="/favorites">Favorites</a></a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>     
+        <%- body %>
+    </body>
+</html>

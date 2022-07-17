@@ -2,11 +2,11 @@ import path from 'path';
 import * as url from 'url';
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
-import * as dotenv from 'dotenv';
+// import * as dotenv from 'dotenv';
 
-if (process.env.NODE_ENV !== 'production') {
-	dotenv.config({ path: path.resolve(__dirname, '.env') });
-}
+// if (process.env.NODE_ENV !== 'production') {
+// 	dotenv.config({ path: path.resolve(__dirname, '.env') });
+// }
 import express from 'express';
 const app = express();
 import expressLayouts from 'express-ejs-layouts';
